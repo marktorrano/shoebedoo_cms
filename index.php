@@ -1,10 +1,18 @@
-<html>
-    <head>
+<?php
+
+index();
+
+function index(){
     
-        <link rel="stylesheet" href="assets/css/materialize.min.css"/>
-        <link rel="stylesheet" href="assets/css/style.css"/>
-    </head>
-    <body>
+    $styles = ['style', 'materialize.min'];
+    
+    $scripts = ['script', 'materialize.min', 'jquery-2.1.4.min'];   
+    
+    require_once("includes/template/header.php");
+   
+?>
+
+
         <div class="row controls">
             <div clas="col l2">
                 <ul>
@@ -32,12 +40,17 @@
                     <div class="col l4">Image here</div>
                     <div class="col l6">Description here</div>
                 </div>
+                
                 <div class="row item"></div>
                 <div class="row item"></div>
                 
             </div>        
         </div>
         
+<?php
+     
+    require_once("includes/template/footer.php");
+    
+}
         
-    </body>
-</html>
+?>
