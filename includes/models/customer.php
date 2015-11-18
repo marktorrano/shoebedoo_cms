@@ -24,8 +24,7 @@ class Customer{
         $this->sEmail = "";
         $this->sUsername = "";
         $this->sPassword = "";
-        $this->fCredit = 0;
-    
+        $this->fCredit = 0;    
     }
     
     public function __get($var){
