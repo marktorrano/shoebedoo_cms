@@ -1,0 +1,43 @@
+.banner{
+    height: 500px;
+    background: green;
+}
+
+.navigation{
+    height: auto;
+}
+
+.browseCatalog{
+    height: auto%;
+    background: yellow;
+}
+
+.controls{
+    height: 50px;
+}
+
+.controls li{
+    display: inline;
+}
+
+
+.item{
+    height: 400px;
+    background: blue;
+}
+
+.navigation 
+
+@media (max-width: 700px){
+    .navigation ul li{
+        display: inline;
+    }
+
+    
+    
+    
+    $oCustomer = new Customer();
+    
+    $oCustomer->CustomerID;
+    
+    $oCustomer->CustomerID(5);
