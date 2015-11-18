@@ -12,7 +12,7 @@ function index(){
    
 ?>
 
-tESTs
+Test 2s
         <div class="row controls">
             <div clas="col l2">
                 <ul>
